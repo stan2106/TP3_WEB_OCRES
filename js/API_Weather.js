@@ -1,4 +1,4 @@
-// API : https://openweathermap.org/api
+//API : https://openweathermap.org/api
 
 // Clé api
 const API_KEY = "4081444b7b90198136fefe6ed4ccf35b";
@@ -11,13 +11,14 @@ const API_URL_ICON = "http://openweathermap.org/img/wn/";
 class API_WEATHER{
   constructor(city){
     // Si la ville n'est pas définit alors la ville par défault est Paris
-    if(city === undefined){
+    if(city === ""){
       city = "paris";
     }
     this.city = city;
   }
 
   // Faire la requete à l'API openweathermap
+
   // Retourne une promise
   fetchTodayForecast(){
     return axios

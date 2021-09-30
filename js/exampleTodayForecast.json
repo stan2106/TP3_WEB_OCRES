@@ -1,8 +1,7 @@
 {
   "coord": { "lon": 2.35, "lat": 48.86 },
   "weather": [
-    { "id": 501, "main": "Rain", "description": "moderate rain", "icon": "10n" }
-  ],
+    { "id": 501, "main": "Rain", "description": "moderate rain", "icon": "10n" }],
   "base": "stations",
   "main": {
     "temp": 15.71,
